@@ -1,0 +1,59 @@
+.colorfondo {
+    background-color: #84a9ac;
+}
+
+.colorfondo2 {
+    background-color: #204051;
+}
+
+
+
+.footer1 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .container-login {
+    background: -webkit-linear-gradient(to right, #84a9ac, #204051);
+    background: linear-gradient(to right, #84a9ac, #204051);
+  }
+
+  .container-pantalla {
+    background: -webkit-linear-gradient(to right, #84a9ac, #84a9ac);
+    background: linear-gradient(to right, #84a9ac, #205145);
+  }
+
+  .parpadea {
+
+animation-name: parpadeo;
+animation-duration: 1.8s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+-webkit-animation-name:parpadeo;
+-webkit-animation-duration: 1.8s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+}
+@-moz-keyframes parpadeo{  
+0% { opacity: 1.0; }
+50% { opacity: 0.0; }
+100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+0% { opacity: 1.0; }
+50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+100% { opacity: 1.0; }
+}
+
+.btn-group, .btn-group-vertical {
+  position: absolute !important;
+}
