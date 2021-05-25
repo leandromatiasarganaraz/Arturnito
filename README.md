@@ -1,4 +1,4 @@
-# COMIDAYA
+# ARTURNITO
 
 El siguiente proyecto es un  **SISTEMA DE TURNOS** desarrollado junto a mis compañeros de cursada en el año 2020.
 
